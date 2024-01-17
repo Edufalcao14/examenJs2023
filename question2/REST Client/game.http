@@ -1,0 +1,30 @@
+######### NORMAL OPERATION  ###########
+
+
+@baseUrl = http://localhost:3000
+
+
+###GET questions without level parameter
+GET {{baseUrl}}/game/start
+
+
+###GET questions with level parameter
+GET {{baseUrl}}/game/start?level=hard
+
+
+###GET add an user score to the database
+POST  {{baseUrl}}/game
+Content-Type: application/json
+
+{
+    "user": "eduTest",
+    "score": 3
+}
+###GET add an user score to the database
+POST  {{baseUrl}}/game
+Content-Type: application/json
+
+{
+    "user": "eduTest",
+    "score": 5
+}
