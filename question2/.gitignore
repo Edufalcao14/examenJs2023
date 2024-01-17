@@ -12,3 +12,14 @@ dist/*
 **/data/*.json
 # but (re)include specific dist directory files, e.g.
 #!frontend-essentials/step-1/dist
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
